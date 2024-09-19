@@ -42,3 +42,11 @@ nav {
 	text-decoration: none;
 	text-align: center;
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: black;
+    padding: 1rem;
+}
