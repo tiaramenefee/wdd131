@@ -10,7 +10,7 @@
     <script src="" defer></script>
 </head>
 
-<body>
+<body class="dark">
     <div class="content-box">
         <div class="content">
             <header class="title">
@@ -18,6 +18,16 @@
                 <h2>Brigham Young University-Idaho</h2>
                 <div class="header-line"></div>
             </header>
+
+            <div class="theme-selector">
+                <label for="theme">Select Theme: </label>
+                <select id="theme" name="theme">
+                    <option value="light" selected>Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+
+
             <main>
                 <p>
                     Brigham Young University-Idaho was founded and is supported and guided
@@ -49,6 +59,7 @@
             </footer>
         </div>
     </div>
+    <script src="mission.js" defer></script>
 </body>
 
 </html>

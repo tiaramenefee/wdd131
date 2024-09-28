@@ -77,3 +77,11 @@ footer {
     display: block;
     margin: 20px auto;
 }
+
+
+/*dark theme*/
+
+.dark {
+    background-color: #121212; 
+    color: #ffffff; 
+}
